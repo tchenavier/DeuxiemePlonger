@@ -19,8 +19,11 @@ function uneProcedureQuiEcrit(evenement)
 }
 function uneProcedureQuiChangeLetext(evenement)
 {
+    
     compteur++;
     evenement.target.innerHTML = "On a cliqué : " + compteur + "fois";
+    MaDiv.classList.add("divC")
+    MaDiv.classList.remove("divD")
 }
 function uneProcedureQuiSurvole(evenement)
 {
