@@ -6,10 +6,10 @@ var compteur2 =0;
 var MaDiv1 = document.getElementById("Methode2");
 MaDiv1.addEventListener("click", uneProcedureQuiChangeLetext);
 
-MaDive = document.getElementById("Methode3");
+var MaDive = document.getElementById("Methode3");
 MaDive.addEventListener("mouseover", uneProcedureQuiSurvole);
 
-MaDiv = document.getElementById("Methode4");
+var MaDiv = document.getElementById("Methode4");
 MaDiv.addEventListener("keydown", uneProcedureQuiEcrit);
 
 function uneProcedureQuiEcrit(evenement)
